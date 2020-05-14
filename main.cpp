@@ -3,8 +3,6 @@
 #include <cstdlib>
 
 using namespace std;
-// function to find first non repeating 
-// character of a stream
 const int MAX_CHAR = 26; 
 void firstnonrepeating(char str[]) 
 { 
@@ -38,11 +36,11 @@ void firstnonrepeating(char str[])
 
 int main()
 {
-    // create a queue of user chosen capacity
+ 
     int n;
     cout<< "Input string size: ";
     cin>>n;
-    char *a=new char[n]; //dynamic character array
+    char *a=new char[n]; 
     for(int i=0;i<n;i++)
          {
              cin>>a[i];
